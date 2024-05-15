@@ -8,6 +8,8 @@ html{
 *, *:before, *:after{
     box-sizing: inherit;
 }
+
+
 /*Navbar*/
 
 .bg1{
@@ -15,18 +17,18 @@ html{
 }
 
 .color-h{
-    color: #04F2D5;
-    font-size: 2rem;
-    font-family: "Outfit";
+    color: #04F2D5 !important;
+    font-size: 2rem !important;
+    font-family: "Outfit" !important;
 }
 
 .img-ah{
-    width: 40%;
-    height: 70%;
+    width: 40% !important;
+    height: 70% !important;
 }
 
 .color-h:hover{
-    color: #fff;
+    color: #fff !important;
 }
 
 
@@ -203,4 +205,79 @@ textarea {
     margin-bottom: 0.5rem;
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
+}
+
+
+
+/*footer*/
+
+.conteiner{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.footer{
+    background-color: #003C43;
+    padding: 80px 0;
+}
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-links{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-links h4{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 25px;
+    font-weight: 700;
+    /* border-bottom: 2px solid #04F2D5; */
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.footer-links ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+}
+.footer-links ul li a:hover{
+    color: #000;
+    padding-left: 6px;
+}
+
+.social-link a{
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    /* background-color: #04F2D5; */
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #000;
+    transition: all .5s ease;
+    font-size: 30px;
+}
+
+.social-link a:hover{
+    background-color: #003C43
+}
+
+@media(max-width:991px){
+    .footer-row{
+        text-align: center;
+    }
+    .footer-links{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+}
+.img-footer{
+    width: 100px;
+    height: auto;
 }
