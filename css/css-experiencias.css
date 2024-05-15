@@ -1,4 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /*1rem = 10px*/
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+/*Navbar*/
+
+.bg1{
+    background-color: #003C43;
+}
+
+.color-h{
+    color: #04F2D5;
+    font-size: 2rem;
+    font-family: "Outfit";
+}
+
+.img-ah{
+    width: 40%;
+    height: 70%;
+}
+
+.color-h:hover{
+    color: #fff;
+}
+
+
+@media(max-width: 520px ) {
+    .navbar-brand{
+        width: 80%;
+    }
+    
+}
 
 
 /*main {
