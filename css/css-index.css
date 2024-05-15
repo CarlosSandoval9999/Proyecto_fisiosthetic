@@ -1,5 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,600;1,600&display=swap');
+
+
+
 
 
 
@@ -22,14 +26,89 @@ html{
     font-family: "Outfit";
 }
 
+.color-h:hover{
+    color: #fff;
+}
+
 .img-ah{
     width: 40%;
     height: 70%;
 }
 
-.color-h:hover{
-    color: #fff;
+
+/*segundo*/
+.cont-general{
+    display: flex;
+    margin-top: 10rem;
+    
 }
+
+.cont-general__contenido{
+    margin-left: 10%;
+    margin-top: 10rem;
+}
+
+h1{
+    color: #003C43;
+    font-size: 9rem;
+    margin-bottom: 5rem;
+    font-family: "Outfit";
+}
+
+.texto{
+    font-size: 3rem;
+    margin-bottom: 5rem;
+    font-family: "Raleway", sans-serif;
+}
+
+.boton-ag{
+    background-color: #003C43;
+    color: #fff;
+    padding: 1rem;
+}
+
+
+.boton-ag a{
+    color: #FFFDFD;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: "Raleway", sans-serif;
+}
+
+
+.img-ah2{
+    width: 45%;
+    height: 60rem;
+    margin-left: 10%;
+}
+/*Fin segundo*/
+
+/*Servicios*/
+
+h2{
+    font-size: 6rem;
+    text-align: center;
+    margin-top: 10rem;
+    color: #003C43;
+    font-family: "Outfit";
+    font-weight:600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Fin de servicios*/
 
 
 @media(max-width: 520px ) {
