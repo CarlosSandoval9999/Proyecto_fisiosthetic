@@ -82,13 +82,14 @@ html{
     display: inline-block;
     min-height: 40px;
     width: 40px;
-    background-color: #04F2D5;
+    /* background-color: #04F2D5; */
     margin: 0 10px 10px 0;
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
     color: #000;
     transition: all .5s ease;
+    font-size: 30px;
 }
 
 .social-link a:hover{
