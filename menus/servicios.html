@@ -4,8 +4,195 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/css-index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="../css/css-servicios.css">
 </head>
 <body>
-    <h2>AQUI VAA SERVICIOS</h2>
+    <nav class="navbar navbar-expand-lg bg1">
+        <div class="container-fluid">
+            <a class="navbar-brand m-0" href="#">
+                <img class="img-ah" src="../img/logo-f.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 w-100 d-flex justify-content-around">
+                    <li class="nav-item">
+                        <a class="nav-link color-h" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle color-h" href="servicios.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Servicios
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../menus/servicios.html">Terapia Física</a></li>
+                            <li><a class="dropdown-item" href="#">Terapia Pediátrica</a></li>
+                            <li><a class="dropdown-item" href="#">Fisioterapia Deportica</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link color-h" href="../menus/experiencias.html">Experiencias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link color-h" href="consultas.html">Consultas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link color-h" href="#">Agendar Cita</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    
+    <section class="hero">
+        <h1>Terapia Física</h1>
+        <div class="hero-content">
+            <p>
+                La fisioterapia se enfoca al tratamiento de la deficiencia física mediante una variedad de métodos, como ejercicios y la aplicación de calor, frío, masajes y electroterapia, entre otros enfoques. Además de tratar estos problemas, la fisioterapia también ayuda a prevenir muchas condiciones y mejora el estado de salud general de las personas. Se usa principalmente para el tratamiento de dolores, lesiones y enfermedades. La fisioterapia funciona tanto para personas de todas las edades. Si bien la mayoría de las personas con un trastorno físico o lesión pueden beneficiarse de la fisioterapia, las personas que han sufrido un accidente pueden hacer una vida normal.
+            </p>
+            <img src="../img/img11.jpeg" alt="Terapia Física">
+        </div>
+    </section>
+
+    <section class="faq">
+        <h2>¿Preguntas Frecuentes sobre la terapia física?</h2>
+        <div class="faq-item">
+            <input type="checkbox" id="faq1">
+            <label for="faq1">
+                ¿Cuál es la diferencia entre la terapia física y la terapia ocupacional?
+                <span>+</span>
+            </label>
+            <div class="faq-answer">
+                <p>La terapia física se centra en mejorar la movilidad y función física mediante ejercicios y tratamientos, mientras que la terapia ocupacional se enfoca en ayudar a las personas a realizar actividades diarias y laborales. Ambas terapias son complementarias y a menudo se combinan para el tratamiento de ciertas condiciones de salud.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <input type="checkbox" id="faq2">
+            <label for="faq2">
+                ¿Necesito una remisión médica para comenzar la terapia física?
+                <span>+</span>
+            </label>
+            <div class="faq-answer">
+                <p>No siempre es necesario tener una remisión médica para comenzar la terapia física, pero en algunos casos, dependiendo de tu seguro de salud o el tipo de lesión que tengas, puede ser recomendable obtener una remisión de tu médico para asegurarte de que la fisioterapia sea adecuada para ti.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <input type="checkbox" id="faq3">
+            <label for="faq3">
+                ¿Qué puedo esperar durante una sesión de terapia física?
+                <span>+</span>
+            </label>
+            <div class="faq-answer">
+                <p>Durante una sesión de terapia física, puedes esperar una evaluación inicial de tu condición, seguida de una serie de ejercicios y tratamientos personalizados para tu caso. Esto puede incluir ejercicios de fortalecimiento, estiramientos, masajes y técnicas de movilización, así como orientación sobre cómo mejorar tu postura y realizar actividades diarias de manera segura.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <input type="checkbox" id="faq4">
+            <label for="faq4">
+                ¿Con qué frecuencia debo asistir a las sesiones de terapia física?
+                <span>+</span>
+            </label>
+            <div class="faq-answer">
+                <p>La frecuencia de las sesiones de terapia física depende de tu condición específica y del plan de tratamiento diseñado por tu fisioterapeuta. Generalmente, se recomienda asistir de 1 a 3 veces por semana para obtener mejores resultados, pero esto puede variar según tu progreso y necesidades individuales.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="appointment">
+        <div class="appointment-content">
+            <img src="../img/Terapia_fisica.jpg" alt="Terapia Física">
+            <form>
+                <h2>Agende su cita aquí</h2>
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="phone">Teléfono</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="service">Seleccione el servicio</label>
+                <select id="service" name="service" required>
+                    <option value="">Seleccione el servicio</option>
+                    <option value="fisio">Fisioterapia</option>
+                    <option value="ocup">Terapia ocupacional</option>
+                </select>
+
+                <label for="comment">Comentario</label>
+                <textarea id="comment" name="comment" rows="4"></textarea>
+
+                <button type="submit">Hacer una cita</button>
+            </form>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+<!--  FOTTTER -->
+
+    <footer class="footer">
+        <div class="conteiner">
+            <div class="footer-row">
+                <div class="footer-links2">
+                    <a href="#"><img src="../img/log_3-removebg-preview.png" class="img-footer"></i></a>
+                    <div class="social-link">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+
+                    </div>
+
+                </div>
+                <div class="footer-links2">
+                    <h4>Acerca de</h4>
+                    <ul>
+                        <li><a href="#">¿Quienes somos?</a></li>
+                        <li><a href="#">Visión/Misión</a></li>
+                        <li><a href="#">Nuestros Valores</a></li>
+                        <li><a href="#">Libro de Reclamos</a></li>
+                    </ul>
+
+                </div>
+                <div class="footer-links2">
+                    <h4>Servicios</h4>
+                    <ul>
+                        <li><a href="#">Terapia Física</a></li>
+                        <li><a href="#">Terapia Pediatrica</a></li>
+                        <li><a href="#">Terapia Neurologica</a></li>
+                        <li><a href="#">Fisioterapia Depostiva</a></li>
+                    </ul>
+
+                </div>
+                <div class="footer-links2">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li><a href="#">999-999-999</a></li>
+                        <li><a href="#">ejemplo@gmail,com</a></li>
+                        <li><a href="#">Lima/Peru</a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+
+                </div>
+               
+
+            </div>
+
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
