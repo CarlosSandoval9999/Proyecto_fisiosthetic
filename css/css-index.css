@@ -4,9 +4,6 @@
 
 
 
-
-
-
 html{
     box-sizing: border-box;
     font-size: 62.5%; /*1rem = 10px*/
@@ -59,7 +56,7 @@ h1{
 .texto{
     font-size: 3rem;
     margin-bottom: 5rem;
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway";
 }
 
 .boton-ag{
@@ -73,7 +70,7 @@ h1{
     color: #FFFDFD;
     text-decoration: none;
     font-size: 2rem;
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway";
 }
 
 
@@ -84,7 +81,7 @@ h1{
 }
 /*Fin segundo*/
 
-/*Servicios*/
+/*TESTIMONIOS*/
 
 h2{
     font-size: 6rem;
@@ -92,24 +89,105 @@ h2{
     margin-top: 10rem;
     color: #003C43;
     font-family: "Outfit";
-    font-weight:600;
+    font-weight:300;
+}
+
+.text2{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 2rem;
+    color: #445666;
+    font-weight: bold !important;
+
+}
+
+.cent{
+    display: flex;
+    justify-content: center;
+}
+
+.secc-icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    background-color: #D9D9D9;
+    width: 5%;
+    border-radius: 50%;
+}
+
+.star{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.cent2{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 4rem;
+}
+
+.nombre{
+    text-align: center;
+    font-size: 3rem;
+}
+
+
+.slider {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.slide {
+    display: none;
+    width: 100%;
+}
+
+.slide.active {
+    display: block;
+    animation: slideIn 1s forwards;
+}
+
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.prev {
+    left: 20%;
+}
+
+.next {
+    right: 20%;
 }
 
 
 
 
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
 
 
-
-
-
-
-
-
-
-
-
-/*Fin de servicios*/
+/*Fin de testimonios*/
 
 
 @media(max-width: 520px ) {
@@ -118,6 +196,9 @@ h2{
     }
     
 }
+
+
+/*FOOTER*/
 
 .conteiner{
     max-width: 1280px;
