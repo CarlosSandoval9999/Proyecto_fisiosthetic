@@ -40,7 +40,7 @@
                         <a class="nav-link color-h" href="consultas.html">Consultas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link color-h" href="agendarcita.html">Agendar Cita</a>
+                        <a class="nav-link color-h" href="#">Agendar Cita</a>
                     </li>
                 </ul>
             </div>
@@ -48,91 +48,36 @@
     </nav>
     
     
-    <section class="hero">
-        <h1>Terapia Física</h1>
-        <div class="hero-content">
-            <p>
-                La fisioterapia se enfoca al tratamiento de la deficiencia física mediante una variedad de métodos, como ejercicios y la aplicación de calor, frío, masajes y electroterapia, entre otros enfoques. Además de tratar estos problemas, la fisioterapia también ayuda a prevenir muchas condiciones y mejora el estado de salud general de las personas. Se usa principalmente para el tratamiento de dolores, lesiones y enfermedades. La fisioterapia funciona tanto para personas de todas las edades. Si bien la mayoría de las personas con un trastorno físico o lesión pueden beneficiarse de la fisioterapia, las personas que han sufrido un accidente pueden hacer una vida normal.
-            </p>
-            <img src="../img/img11.jpeg" alt="Terapia Física">
-        </div>
-    </section>
-
-    <section class="faq">
-        <h2>¿Preguntas Frecuentes sobre la terapia física?</h2>
-        <div class="faq-item">
-            <input type="checkbox" id="faq1">
-            <label for="faq1">
-                ¿Cuál es la diferencia entre la terapia física y la terapia ocupacional?
-                <span>+</span>
-            </label>
-            <div class="faq-answer">
-                <p>La terapia física se centra en mejorar la movilidad y función física mediante ejercicios y tratamientos, mientras que la terapia ocupacional se enfoca en ayudar a las personas a realizar actividades diarias y laborales. Ambas terapias son complementarias y a menudo se combinan para el tratamiento de ciertas condiciones de salud.</p>
-            </div>
-        </div>
-        <div class="faq-item">
-            <input type="checkbox" id="faq2">
-            <label for="faq2">
-                ¿Necesito una remisión médica para comenzar la terapia física?
-                <span>+</span>
-            </label>
-            <div class="faq-answer">
-                <p>No siempre es necesario tener una remisión médica para comenzar la terapia física, pero en algunos casos, dependiendo de tu seguro de salud o el tipo de lesión que tengas, puede ser recomendable obtener una remisión de tu médico para asegurarte de que la fisioterapia sea adecuada para ti.</p>
-            </div>
-        </div>
-        <div class="faq-item">
-            <input type="checkbox" id="faq3">
-            <label for="faq3">
-                ¿Qué puedo esperar durante una sesión de terapia física?
-                <span>+</span>
-            </label>
-            <div class="faq-answer">
-                <p>Durante una sesión de terapia física, puedes esperar una evaluación inicial de tu condición, seguida de una serie de ejercicios y tratamientos personalizados para tu caso. Esto puede incluir ejercicios de fortalecimiento, estiramientos, masajes y técnicas de movilización, así como orientación sobre cómo mejorar tu postura y realizar actividades diarias de manera segura.</p>
-            </div>
-        </div>
-        <div class="faq-item">
-            <input type="checkbox" id="faq4">
-            <label for="faq4">
-                ¿Con qué frecuencia debo asistir a las sesiones de terapia física?
-                <span>+</span>
-            </label>
-            <div class="faq-answer">
-                <p>La frecuencia de las sesiones de terapia física depende de tu condición específica y del plan de tratamiento diseñado por tu fisioterapeuta. Generalmente, se recomienda asistir de 1 a 3 veces por semana para obtener mejores resultados, pero esto puede variar según tu progreso y necesidades individuales.</p>
-            </div>
-        </div>
-    </section>
-
+    
     <section class="appointment">
         <div class="appointment-content">
-            <img src="../img/Terapia_fisica.jpg" alt="Terapia Física">
+
             <form>
                 <h2>Agende su cita aquí</h2>
-                <label for="name">Nombre</label>
+                <label for="name" class="sub_agenda">Nombre</label>
                 <input type="text" id="name" name="name" required>
 
-                <label for="phone">Teléfono</label>
+                <label for="phone" class="sub_agenda">Teléfono</label>
                 <input type="tel" id="phone" name="phone" required>
 
-                <label for="email">Email</label>
+                <label for="email" class="sub_agenda">Email</label>
                 <input type="email" id="email" name="email" required>
 
-                <label for="service">Seleccione el servicio</label>
+                <label for="service" class="sub_agenda">Seleccione el servicio</label>
                 <select id="service" name="service" required>
                     <option value="">Seleccione el servicio</option>
                     <option value="fisio">Fisioterapia</option>
                     <option value="ocup">Terapia ocupacional</option>
                 </select>
 
-                <label for="comment">Comentario</label>
+                <label for="comment" class="sub_agenda">Comentario</label>
                 <textarea id="comment" name="comment" rows="4"></textarea>
 
                 <button type="submit">Hacer una cita</button>
             </form>
+            <img src="../img/Terapia_fisica.jpg" alt="Terapia Física">
         </div>
     </section>
-
-
-
 
 
 

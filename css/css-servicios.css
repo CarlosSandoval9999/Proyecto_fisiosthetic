@@ -92,15 +92,16 @@
 .appointment-content {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    /* justify-content: space-between;
+    align-items: center; */
+    justify-content: center;
 }
 
 .appointment img {
     max-width: 700px;
     border-radius: 10px; 
-    margin-left: 250px;
-    height: 638px; 
+    /* margin-left: 250px;
+    height: 638px;  */
 }
 
 .appointment form {
@@ -110,7 +111,7 @@
     background-color: #00E0D6;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-right: 250px;
+    
 }
 
 .appointment h2 {
@@ -149,4 +150,10 @@
 
 .appointment button:hover {
     background-color: #414141;
+}
+
+
+.sub_agenda{
+    font-family: "Raleway";
+    font-size: 15px;
 }
