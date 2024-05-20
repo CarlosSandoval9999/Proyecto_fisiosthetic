@@ -30,8 +30,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const prevButton = document.querySelector(".prev");
     const nextButton = document.querySelector(".next");
 
-    console.log(prevButton); // Verifica si prevButton apunta al botón de flecha izquierda
-    console.log(nextButton); // Verifica si nextButton apunta al botón de flecha derecha
+    console.log(prevButton);
+    console.log(nextButton); 
 
     prevButton.addEventListener("click", prevSlide);
     nextButton.addEventListener("click", nextSlide);
