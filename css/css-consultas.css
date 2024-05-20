@@ -2,31 +2,34 @@
 {
     display: flex;
     background-color: white;
-    height:500px;
-    width: 800px;
-    margin: auto;
-    margin-top: 100px;
-    margin-bottom: 50px;
+    width: 100%;
+    justify-content: center;
+    margin: 5% auto;
 }
 
 .form
 {
     display: flex;
     flex-direction: column;
+    /* margin-right: 5%; */
+    font-family: "Outfit", sans-serif;
 }
 .tittle h2
 {
-    font-size: 35px;
+    font-size: 5rem;
     margin-top: 2px;
+    text-align: start;
 }
 .tittle p
 {
-    font-size: 16px;
+    font-size: 20px;
+    width: 85%;
+    color: #003C43;
 }
 .form .parte1
 {
     display: flex;
-    gap: 110px;
+    gap: 25%;
 }
 
 .parte2
@@ -42,15 +45,18 @@
     color: black;
     margin-top: 10px;
     margin-bottom: 5px;
+    font-size: 1.8rem;
 }
 
 .parte2 input
 {
-    padding: 10px;
+    padding: 5px;
     background-color: #04F2D5; 
     outline: none;
     border: 1px solid #04F2D5;
-    width: 110px;
+    width: 150px;
+    border-radius: 5px;
+    font-size: 1.5rem;
 }
 
 
@@ -61,17 +67,103 @@
     outline: none;
     border: 1px solid #04F2D5;
     color: white;
-    width: 135px;
+    width: 150px;
+    font-size: 1.5rem;
 }
 
 .parte2 textarea
 {
     background-color: #04F2D5; 
-    outline: none;
+    /* outline: none; */
     border: 1px solid #04F2D5;
     resize: none;
-    margin: auto 10px auto auto;
-    width: 373px;
+    /* margin: auto 10px auto auto; */
+    width: 68%;
+    border-radius: 5px;
+    height: 100px;
+    padding: 1rem;
+}
+
+.parte2 input[type="submit"]
+{
+    padding: 14px;  
+    background-color: #003C43; 
+    outline: none;
+    resize: none;
+    width: 100px;
+    color: #04F2D5;
+    border: none;
+    cursor: pointer;
+    margin-top: 3%;
+}
+.parte2 ::placeholder
+{
+    color: white;
+}
+
+.info img
+{
+    max-width: 420px;
+    
+}
+@media(max-width:991px){
+    .info img{
+        max-width: 325px;
+    }
+    .form .parte1
+    {
+    gap: 10%;
+    }
+    .tittle h2
+    {
+    font-size: 4rem;
+    }
+    .tittle p
+    {
+    font-size: 15px;
+    width: 85%;
+    }
+    .parte2 label
+{
+    margin-top: 5px;
+    margin-bottom: 2.5px;
+    font-size: 1.5rem;
+}
+
+.parte2 input
+{
+    padding: 5px;
+    background-color: #04F2D5; 
+    outline: none;
+    border: 1px solid #04F2D5;
+    width: 150px;
+    border-radius: 5px;
+    font-size: 1.3rem;
+}
+
+
+.parte2 .form-select
+{
+    padding: 10px;
+    background-color: #04F2D5; 
+    outline: none;
+    border: 1px solid #04F2D5;
+    color: white;
+    width: 150px;
+    font-size: 1.3rem;
+}
+
+.parte2 textarea
+{
+    background-color: #04F2D5; 
+    /* outline: none; */
+    border: 1px solid #04F2D5;
+    resize: none;
+    /* margin: auto 10px auto auto; */
+    width: 68%;
+    border-radius: 5px;
+    height: 100px;
+    padding: 1rem;
 }
 
 .parte2 input[type="submit"]
@@ -85,52 +177,51 @@
     border: none;
     cursor: pointer;
 }
-
 .parte2 ::placeholder
 {
     color: white;
 }
 
-.info img
-{
-    width: 420px;
-    
-}
 
-@media (max-width: 370px)
+}
+@media (max-width: 767px)
 {
     .container
     {
         width: 100%;
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
     }
     .info 
     {
-        align-items: center;
+        margin: 0 auto;
     }
     .info img
     {
-        width: 250px;
-        height: 150px;
+        width: 350px;
+        height: 200px;
     }
     .form
     {
        width: 100%;
-       align-items: center;
+       /* align-items: center; */
+       justify-content: center;
     }
     .form .parte1
     {
+        /* text-align: center; */
+        margin: 0 auto;
         gap: 50px;
     }
     .parte2 textarea
     {
         width: 240px;
         align-items: center;
+        margin: 0 auto;
     }
     .parte2 input
     {
-        width: 80px;
+        width: 100px;
+        margin: 0 auto;
     }
     .parte2 .form-select
     {
@@ -138,17 +229,18 @@
     }
     .tittle h2
     {
-        margin: 0 0 0 110px;
-        margin-bottom: 20px;
+        margin-bottom: 5%;
+        text-align: center;
     }
     .tittle p
     {
-        margin: 0 0 0 20px;
+        margin: 0 auto;
         margin-bottom: 40px;
     }
     .parte2 label
     {
         margin-top: 30px;
         margin-bottom: 5px;
+        margin: 0 auto;
     }
     }
