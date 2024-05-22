@@ -273,7 +273,7 @@ html{
 }
 .footer-links h4{
     font-size: 20px;
-    color: black;
+    color: #04F2D5;
     margin-bottom: 25px;
     font-weight: 700;
     /* border-bottom: 2px solid #04F2D5; */
@@ -283,13 +283,13 @@ html{
 .footer-links ul li a{
     font-size: 18px;
     text-decoration: none;
-    color: black;
+    color: #04F2D5;
     display: block;
     margin-bottom: 15px;
     transition: all .3s ease;
 }
 .footer-links ul li a:hover{
-    color: #000;
+    color: #04F2D5;
     padding-left: 6px;
 }
 
@@ -302,7 +302,7 @@ html{
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
-    color: #000;
+    color: #04F2D5;
     transition: all .5s ease;
     font-size: 30px;
 }

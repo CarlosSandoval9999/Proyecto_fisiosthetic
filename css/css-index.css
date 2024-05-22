@@ -489,7 +489,7 @@ a{
 }
 .footer-links2 h4{
     font-size: 20px;
-    color: black;
+    color: rgb(4, 242, 213);
     margin-bottom: 25px;
     font-weight: 700;
     /* border-bottom: 2px solid #04F2D5; */
@@ -499,13 +499,13 @@ a{
 .footer-links2 ul li a{
     font-size: 18px;
     text-decoration: none;
-    color: black;
+    color: rgb(4, 242, 213);
     display: block;
     margin-bottom: 15px;
     transition: all .3s ease;
 }
 .footer-links2 ul li a:hover{
-    color: #000;
+    color: rgb(4, 242, 213);
     padding-left: 6px;
 }
 
@@ -518,7 +518,7 @@ a{
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
-    color: #000;
+    color: #04F2D5;
     transition: all .5s ease;
     font-size: 30px;
 }
